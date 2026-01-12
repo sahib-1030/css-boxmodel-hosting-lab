@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Box Model Hosting Lab</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <p>hello world</p>
-    
+
+  <h1>CSS Box Model & Border Properties Lab</h1>
+
+  <!-- ================= TASK 1 ================= -->
+  <section>
+    <h2>Task 1: Border Properties Demo</h2>
+
+    <div class="border-demo border1">Border shorthand</div>
+    <div class="border-demo border2">Different borders on each side</div>
+    <div class="border-demo border3">Dashed & dotted border</div>
+    <div class="border-demo border4">Double border</div>
+    <div class="border-demo border5">Border radius</div>
+    <div class="border-demo border6">Outline & outline-offset</div>
+  </section>
+
+  <!-- ================= TASK 2 ================= -->
+  <section>
+    <h2>Task 2: CSS Box Model Visual</h2>
+
+    <div class="box-model">
+      Content Area
+    </div>
+
+    <p class="info">
+      Width includes content, padding, and border because
+      <b>box-sizing: border-box</b> is applied.
+    </p>
+  </section>
+
+  <!-- ================= TASK 3 ================= -->
+  <section>
+    <h2>Task 3: Padding vs Margin</h2>
+
+    <div class="compare">
+      <div class="padding-box">Padding increases inner space</div>
+      <div class="margin-box">Margin increases outer space</div>
+    </div>
+  </section>
+
+  <!-- ================= TASK 4 ================= -->
+  <section>
+    <h2>Task 4: Product Cards</h2>
+
+    <div class="products">
+      <div class="card">
+        <h3>Headphones</h3>
+        <p class="price">₹1999</p>
+        <p>High quality sound with noise cancellation.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Smart Watch</h3>
+        <p class="price">₹2999</p>
+        <p>Track fitness and notifications easily.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Bluetooth Speaker</h3>
+        <p class="price">₹1499</p>
+        <p>Portable speaker with powerful bass.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <h3>Wireless Mouse</h3>
+        <p class="price">₹799</p>
+        <p>Smooth and ergonomic design.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
+
